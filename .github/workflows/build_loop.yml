@@ -254,7 +254,7 @@ jobs:
       - name: Customize Loop
         run: |
 
-# The lines below add the customizations listed using the CustomizationSelect script
+      # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" should not be blank
           /bin/bash -c "$(curl -fsSL \
